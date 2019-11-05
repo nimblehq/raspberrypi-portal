@@ -31,7 +31,9 @@ If no sound is sent to the TV, there can be two main solutions:
 
 ## Software
 
-For conference calls, we use the web-based application [Whereby](https://whereby.com/). It allows each portal to have a dedicated always-on room:
+For conference calls, we use the web-based application [Whereby](https://whereby.com/). 
+
+It allows each portal to have a dedicated always-on room:
 
 ![Whereby Rooms](assets/software-rooms.png)
 
