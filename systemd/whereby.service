@@ -1,0 +1,18 @@
+[Unit]
+Description=Whereby conference calls
+PartOf=graphical-session.target
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+ExecStart=/usr/bin/chromium-browser --kiosk --app=https://whereby.com/<USERNAME>
+Restart=always
+RestartSec=10s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=graphical.target
