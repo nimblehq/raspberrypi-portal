@@ -13,6 +13,8 @@ The equipment consists of 4 parts:
 
 ### Setup
 
+![Hardware setup](assets/hardware-setup.jpg)
+
 - Connect the Webcam to the first USB 3.0 input on the Raspberry PI.
 - Connect the speaker/microphone to the second USB 3.0 input on the Raspberry PI.
 - Connect the first miniHDMI output from the Raspberry PI to an HDMI port on the TV.
@@ -23,15 +25,19 @@ If no sound is sent to the TV, there can be two main solutions:
 
 - Plug the Mini-HDMI in the first slot.
 
+![Troubleshooting Sound Output](assets/troubleshooting-sound-output.jpg)
+
 - Force HDMI output using [this guide](https://www.raspberrypi.org/documentation/configuration/audio-config.md) (config.txt).
 
 ## Software
 
 For conference calls, we use the web-based application [Whereby](https://whereby.com/). It allows each portal to have a dedicated always-on room:
 
+![Whereby Rooms](assets/software-rooms.png)
+
 ### Configuration
 
-Log in to Nimble account in the Chromium browser.
+Log in to Nimble account of Whereby via the Chromium browser.
 
 One logged in to Whereby, edit the settings:
 
