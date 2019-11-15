@@ -21,13 +21,15 @@ The equipment consists of 4 parts:
 
 ### Troubleshooting
 
-If no sound is sent to the TV, there can be two main solutions:
+- If no sound is sent to the TV, there can be two main solutions:
 
-- Plug the Mini-HDMI in the first slot.
-
-![Troubleshooting Sound Output](assets/troubleshooting-sound-output.jpg)
-
-- Force HDMI output using [this guide](https://www.raspberrypi.org/documentation/configuration/audio-config.md) (config.txt).
+    - Plug the Mini-HDMI in the first slot.
+    
+    ![Troubleshooting Sound Output](assets/troubleshooting-sound-output.jpg)
+    
+    - Force HDMI output using [this guide](https://www.raspberrypi.org/documentation/configuration/audio-config.md) (config.txt).
+    
+- Reduce power consumption and board temperatures by [updating the firmware](https://www.geeks3d.com/20191101/raspberry-pi-4-new-firmware-reduces-power-consumption-and-boards-temperatures/)
 
 ## Software
 
